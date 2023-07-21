@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+                    // INDEX - LAYOUT DEL BODY
+body {
+    display: grid;
+    grid-template-rows: 0.5fr 5fr 0.5fr;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+    header {
+        grid-area: header;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        display: grid;
+        grid-template-rows: 0.5fr 10fr 0.5fr;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer";
+        header {
+            grid-area: header;
+        }
+    
+        main {
+            grid-area: main;
+        }
+    
+        footer {
+            grid-area: footer;
+        }
+    }
+}
+
+                    // CONTACTO - LAYOUT DEL BODY
+#layout-contacto {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+    header {
+        grid-area: header;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #layout-contacto {
+        display: grid;
+        grid-template-rows: 0.5fr 2fr 0.5fr;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer";
+        header {
+            grid-area: header;
+        }
+    
+        main {
+            grid-area: main;
+        }
+    
+        footer {
+            grid-area: footer;
+        }
+    }
+}
+
+                    // TALLES - LAYOUT DEL BODY
+#layout-talles {
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+    header {
+        grid-area: header;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #layout-talles {
+        display: grid;
+        grid-template-rows: 0.5fr 1fr 0.5fr;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer";
+        header {
+            grid-area: header;
+        }
+    
+        main {
+            grid-area: main;
+        }
+    
+        footer {
+            grid-area: footer;
+        }
+    }
+}
+
+                    // NOSOTROS - LAYOUT DEL BODY
+#layout-nosotros {
+                        display: grid;
+                        grid-template-rows: 0.5fr 3fr 0.5fr;
+                        grid-template-columns: repeat(4,1fr);
+                        grid-template-areas: 
+                        "header header header header"
+                        "main main main main"
+                        "footer footer footer footer";
+                        header {
+                            grid-area: header;
+                        }
+                    
+                        main {
+                            grid-area: main;
+                        }
+                    
+                        footer {
+                            grid-area: footer;
+                        }
+}
+
+@media screen and (max-width: 480px) {
+    #layout-nosotros {
+        display: grid;
+        grid-template-rows: 0.5fr 3fr 0.5fr;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer";
+        header {
+            grid-area: header;
+        }
+    
+        main {
+            grid-area: main;
+        }
+    
+        footer {
+            grid-area: footer;
+        }
+    }
+}
+
+                    
+@import "./modulos/header.scss";
+@import "./modulos/main.scss";
+@import "./modulos/footer.scss";
+
+
+    
