@@ -124,7 +124,7 @@ header {
     width: 550px;
     position: relative;
     bottom: 15px;
-    right: 60px; }
+    right: 100px; }
   header #navbarNav {
     margin-right: 0;
     position: 0; }
@@ -132,10 +132,11 @@ header {
     margin: 10px;
     color: black;
     font-weight: bold;
-    font-size: 30px; }
+    font-size: 25px; }
     header #nav-ul a:hover {
       background-color: rgba(0, 0, 0, 0.452);
-      border-radius: 100px; }
+      border-radius: 100px;
+      text-decoration: underline; }
 
 @media screen and (max-width: 480px) {
   header {
